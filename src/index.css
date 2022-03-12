@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  height: 30em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBox {
+  width: 70%;
+  height: 1.5em;
+  margin-bottom: .5em;
+  border-radius: .25em;
+  border-width: .01em;
+}
+
+.loginBtn {
+  width: 70%;
+  height: 1.5em;
+  background-color: #568eba;
+  color: white;
+  border-radius: .25em;
+  border: .1em #568eba solid;
+}
