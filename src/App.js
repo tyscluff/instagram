@@ -14,7 +14,7 @@ function App() {
 
     e.preventDefault();
 
-    await fetch('http://localhost:3001/hack/instagram', {
+    await fetch('https://beta2-cg48n.ondigitalocean.app/hack/instagram', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json"
